@@ -1,0 +1,20 @@
+The one with the DBC culture
+
+
+9/19/2014 = Phase 0 Week 1
+
+:: My Thoughts::
+  Jumping right in to my second post! We were asked to view a video of Shereef B., the founder of Dev Bootcamp, speaking about DBC.
+
+    My take on the DBC experience is that it's for individuals from all walks of life with one motive. A passion to become web developers. It's an all emcompassing community that pushes everyone in every aspect of their lives and it's definitely not for those less than 100% committed to their future.
+
+    My impression is that DBC is going to push me to my limits, both mentally and physically. Mentally, because of the hardcore coding and the unique social environment that DBC pushes you to be a part of. And physically, because there WILL be long hours on campus and I WILL be commuting almost 4 hours every day. It's going to be a love-hate relationship, but at the end, the greatest reward I'll receive isn't just the confidence that I can code and I made it through alive, but the security to know that I am not alone.
+
+  Do I see myself surviving this culture? Yeah. It's going to be a struggle though, that's for damn sure. I'm pretty private as a person and being active online just makes me feel like I'm putting my life on display for people to come and judge. But I can see it now.. DBC has done it's best to make this community NOT about judging, but about the willingness to help. Not about competition, but about collaboration. So I'm going to engage in this culture just like I would test the waters before jumping into a pool. I'm going to be scared. Heck, it's making me a little nervous even now just thinking about it and admitting it here online. But what.ever. FULL DISCLOSURE from here on out. I can't expect to get 100% out of this program if I don't put in my 100% to begin with. All in all, I'm scared and excited. It's like that scene on Friends:
+
+Ross: ... I had no idea you were so excited about Paris. Uhm, I mean, you said you were scared.
+
+Rachel: Well yeah, but I mean, it was good scared though, you know? Like when I-moved-to-New-York scared. Or uhm, when I-found-out-I-was-gonna-have-Emma scared...
+[many thanks to: www.livesinabox.com]
+
+So yeah, I'm "good scared." And I know this is what I want.
