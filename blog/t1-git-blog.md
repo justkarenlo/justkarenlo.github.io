@@ -1,18 +1,6 @@
-<!-- This template is in markdown, not html, so
-  it will not render beautifully when you copy and
-  paste it into your github.io site, but it will at
-  least be published. Next week you'll be creating a
-  blog template using HTML and CSS and you'll be able
-  to copy and paste the blog posts from week 1 in there
-  to make them pretty next week.
-
-  For now, please replace the title, subtitle (if desired),
-  and date with the text you would like. Markdown is pretty
-  simple, so you can just feel free to type. =) -->
-
-
 The one with the first post
-    ...where it all starts
+
+                              ...where it all starts
 9/18/2014 = Phase 0 Week 1
 
 This should be interesting. I'm writing my first blog through Sublime. Ever heard of that? 'Cause prior to a few months ago, I had no idea what that was either. Well if you're anything like me and the other [enter outrageous number here] people, you'll definitely cozy right up to it as a coder. And for those of you who are in the know, Dev Boot Camp encourages us to blog about our experiences, knowledge, and struggles so that we can not only better our own learning experience, but also help someone else out. SOOO... yeah, there are a lot of these blogs out there. The best I can provide you is my perspective, personality, and "know-how". Let's see how that works out!
