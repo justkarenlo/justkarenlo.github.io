@@ -1,0 +1,99 @@
+html {
+  background-color: #333333;
+  font-family: Georgia;
+  color: white;
+}
+header {
+  width: 95%;
+  height:100px;
+  background-color: #429997;
+}
+
+#header {
+  font-family: Pacifico, Times New Roman;
+  position: relative;
+  text-align: right;
+  padding-top: 65px;
+  padding-right: 15px;
+  color: black;
+}
+
+#navigator {
+  background-color: #14CCC7;
+  text-decoration: none;
+  color: white;
+  width: 95%;
+  height: 30px;
+  color: black;
+}
+
+#navigator a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#navigator a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#navigator a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: #CC6AB6;
+  text-align: center;
+}
+
+#navigator a:visited {
+  color: black;
+  text-decoration: none;
+  background-color: #429997;
+}
+
+#navigator table {
+  text-align: center;
+  border: 2px solid white;
+}
+#navigator td {
+  text-align: center;
+  width: 30%;
+}
+
+#mainbody {
+  float: left;
+  width: 70%;
+}
+
+#mainbody table {
+  border: 2px solid white;
+  margin-top: 15px;
+}
+
+#mainbody thead td {
+  border-bottom: 2px solid white;
+  padding: 2px;
+}
+
+
+#sidebar {
+  width: 150px;
+  float: right;
+  border: 2px solid white;
+  margin-right: 45px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+#sidebar a, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+#sidebar a:hover {
+  text-decoration: none;
+  color: #00FF68;
+}
