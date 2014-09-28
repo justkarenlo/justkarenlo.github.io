@@ -1,6 +1,6 @@
 html {
   background-color: #333333;
-  font-family: Georgia, Garamond;
+  font-family: Georgia;
   color: white;
 }
 #header {
@@ -16,6 +16,7 @@ html {
   top: 30px;
   right: 10px;
   font-size: 18px;
+  font-family: Pacifico, Georgia;
 }
 
 .blogtext {
@@ -24,6 +25,13 @@ html {
   width: 65%;
   padding: 10px;
   margin-top: 15px;
+}
+
+#posts a, a:active, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: #14CCC7;
+    display: block;
 }
 
 #sidebar {
