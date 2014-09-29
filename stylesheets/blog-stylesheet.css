@@ -27,6 +27,10 @@ html {
   margin-top: 15px;
 }
 
+.alignright {
+  text-align: right;
+}
+
 #posts a, a:active, a:hover, a:visited {
     color: white;
     text-decoration: none;
