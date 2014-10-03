@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>just.karen's_blog</title>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+  </head>
+
+  <body>
+    <article>
+      <header>
+        <div id="header">
+          <p id="musings">just my musings...<p>
+        </div>
+      </header>
+      <div class="blogtext">
+          <h4>The one with all the Arrays & Hashes</h4>
+    <br>
+
+    <h6 class="alignright">10/03/14 = Phase 0 Week 3</h6>
+<br>
+  <p>
+    AHHHH finally <strong>Ruby</strong> this week! It's been a nice refreshing stretch to get back into ruby groove again. I worked so hard just to make sure I did well on the interview that I spent quite a bit of time getting down the logic and coding. And this week with all the pairings, I'm proud to say I <em>actually helped</em>. Not to say I didn't carry my weight the previous weeks, 'cause I believe I did. But this week was different. I had forgotten how much I love the feeling of being dependable. Having quit my job and starting a brand new career, I've been the one depending on others for their support. I'm just grateful...others have helped me and I get to pay it back! Alright, sentimental-ness aside, let's get started on the topic of this week!
+  </p>
+  <br>
+  <h4>::More Know-How::</h4>
+  <br>
+  <table style="border: 2px solid white">
+    <thead colspan="2">
+      <tr>
+        <th colspan= "3"; style="text-align: center; border-bottom: 2px solid white">Arrays versus Hashes</th>
+      </tr>
+    </thead>
+      <tr>
+        <td style="text-align: center; border-bottom: 2px solid white">Arrays</td>
+        <td style="text-align: center; border-left: 2px solid white; border-bottom: 2px solid white">Hashes</td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <pre>
+  RossandRachel = ["We","were","on","a","BREAK!"]
+            </pre>
+          </p>
+          <ul>
+              <li>From the example above, you can see that this iconic string would not really make sense if it were out of order. </li>
+              <li>Arrays have a specific order to them and the first index begins with  <strong>0</strong>(zero)</li>
+          </ul>
+          <pre>
+            array_name = [0,1,2,3,4]
+          </pre>
+          <p style="margin-left: 8px">
+            So as you can see, even though an array can house 5 items, but its index only goes up to 4 because the count starts with zero rather than one.
+            <br>
+            Only these indexes are used to identify a specific position in an array:
+          </p>
+          <pre>
+            RossandRachel[0]= "We"
+            RossandRachel[1]= "were"
+            RossandRachel[2]= "on"
+            RossandRachel[3]= "a"
+            RossandRachel[4]= "BREAK!"
+          </pre>
+          <p style="margin-left: 8px">There's so much you can do with arrays, but here's a little taste if you want to check how many items/elements are in an array:</p>
+          <pre>
+            RossandRachel.length
+            =>  5
+          </pre>
+        </td>
+        <td style="border-left: 2px solid white">
+          <p>
+  <pre>           Friends = {
+
+  "Rachel" => "Left a man at the alter"
+  "Ross" => "Married a lesbian"
+  "Joey" => "Threw a girl's wooden leg in a fire"
+  "Phoebe" => "Fell in love with a gay ice dancer"
+  "Chandler" => "Lived in a box"
+  "Monica" => "Dated her ex's son"
+            }
+            </pre>
+          </p>
+          <ul>
+              <li>Hashes don't care about order, they act on a key-value basis, shown in the example above.</li>
+              <li> The <strong>keys</strong> are the names of the main 6 characters on the show, in <em>no particular order</em>.</li>
+              <li> The <strong>values</strong> that are paired with the characters are the things they've done that they aren't necessarily proud of...</li>
+          </ul>
+          <p style="margin-left: 8px">
+            Since order doesn't matter in hashes, you'd only need to know and call a key (a name in this case if you were curious about any of the Friends vices) to pull the related content. This is a great tool to use when devising an address book (ex. key= name; value = address). Or keep a list of gift ideas for each friend or.......... even a list of all the things (money, borrowed DVDs, games, etc.) each friend owes you over the years...hmmm
+          </p>
+          <pre>
+      Friends["Ross"]
+      ==> "Married a lesbian"
+      Friends["Phoebe"]
+      ==> "Fell in love with a gay ice dancer"
+      Friends["Joey"]
+      ==> "Threw a girl's wooden leg in a fire"
+          </pre>
+        </td>
+      </tr>
+  </table>
+    </div>
+  </article>
+  <br>
+      <div id="footer">
+          <p>BAM!!! this is a footer</p>
+      </div>
+  </body>
+</html>
