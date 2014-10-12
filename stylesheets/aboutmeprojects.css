@@ -1,0 +1,42 @@
+html {
+  color: white;
+  font-family: Cabin Sketch, Georgia;
+  background-color: #17161b;
+  margin: 0px;
+  font-size: 24px;
+}
+
+#maindisplay{
+  width: 1024px;
+  height: 768px;
+  margin: 0px auto;
+}
+
+#maindisplay div {
+  position: relative;
+  top: 300px;
+  left: 300px;
+}
+
+#homebutton {
+  font-family: IM Fell English SC;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+
+/* links start */
+a, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #14CCC7;
+}
+
+a:hover {
+  color:#FF608C;
+  }
+

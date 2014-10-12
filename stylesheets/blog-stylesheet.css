@@ -1,68 +1,130 @@
 html {
-  background-color: #333333;
-  font-family: Georgia;
   color: white;
+  font-family: Georgia;
+  background-color: #17161b;
+  margin: 0px;
+  font-size: 24px;
 }
 
-#header {
-  width: 100%;
-  height: 80px;
-  background-color: #222222;
-  text-align: right;
-  border: 2px solid white;
+#maindisplay {
+  width: 1024px;
+  height: 768px;
+  margin: 0px auto;
+  background-image: url("../imgs/display_blog.jpg");
+  background-repeat: no-repeat;
 }
 
-#musings {
+#position {
   position: relative;
-  top: 30px;
-  right: 10px;
-  font-size: 18px;
-  font-family: Pacifico, Georgia;
 }
 
-.blogtext {
-  float: left;
-  border: 2px dotted #AAAAAA;
-  width: 65%;
-  padding: 10px;
-  margin-top: 15px;
+#homebutton {
+  font-family: IM Fell English SC
+  , Georgia;
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 100px;
 }
 
-pre {
-  background-color: #14ccc7;
-  color: black;
-  margin: 2px;
+#smallheader {
+  font-family: Pacifico;
+  font-size: 20px;
+  color: #bebdc6;
+  position: absolute;
+  top: 5px;
+  left: 790px;
 }
 
-.alignright {
+#actualpost {
+  font-family: Georgia;
+  font-size: 16px;
+  overflow-y: scroll;
+  width: 680px;
+  height: 525px;
+  position: absolute;
+  top: 110px;
+  left: 130px;
+  padding-right: 5px;
+  line-height: 20px;
+}
+
+#theone {
+  font-family: Permanent Marker;
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+      width: 15px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      background-color: transparent;
+      ;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      background-color: #17161b;
+      ;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      background-color: transparent;
+      ;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+      background-color: transparent;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+/* links start */
+a, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #14CCC7;
+}
+
+a:hover {
+  color:#FF608C;
+  }
+
+#links {
+  position: absolute;
+  top: 675px;
+  left: 350px;
+  font-family: IM Fell English SC
+, Georgia;
+}
+
+
+/* links end */
+
+/* styling basics */
+#underline {
+  text-decoration: underline;
+}
+
+#date {
   text-align: right;
+  font-family: IM Fell English SC
+, Georgia;
 }
 
-#posts a, a:active, a:hover, a:visited {
-    color: white;
-    text-decoration: none;
-    background-color: #14CCC7;
+.indent {
+  text-indent: 50px;
 }
 
-#sidebar {
-  float: right;
-  width: 300px;
-  border: 2px solid #AAAAAA;
-  text-align: center;
-  margin-top: 15px;
-
+#section {
+  font-family: Permanent Marker;
+color: #98e6b8;
+  font-size: 18px;
 }
 
-img {
-  width:200px;
-
-}
-
-#footer {
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
-    border: 2px solid white;
+.minorsection {
+  font-family: Permanent Marker;
+  color: #CC6AB6;
+  font-size: 15px;
 }

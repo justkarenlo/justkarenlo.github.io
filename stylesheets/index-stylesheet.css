@@ -1,99 +1,76 @@
 html {
-  background-color: #333333;
+  color: white;
   font-family: Georgia;
-  color: white;
-}
-header {
-  width: 95%;
-  height:100px;
-  background-color: #429997;
+  background-color: #17161b;
+  margin: 0px;
+  font-size: 24px;
 }
 
-#header {
-  font-family: Pacifico, Times New Roman;
+#maindisplay {
+  width: 1024px;
+  height: 768px;
+  margin: 0px auto;
+  background-image: url("../imgs/glasses.jpg");
+  background-repeat: no-repeat;
+}
+
+#humble {
   position: relative;
-  text-align: right;
-  padding-top: 65px;
-  padding-right: 15px;
-  color: black;
+  color: #bebdc6;
+  font-family: Pacifico;
+  font-size: 20px;
 }
 
-#navigator {
-  background-color: #14CCC7;
-  text-decoration: none;
+#position{
+  position: absolute;
+}
+
+#blog {
+  font-family: Cabin Sketch;
+  font-size: 40px;
+  position: absolute;
+  top: 275px;
+  left: 150px;
+}
+
+#projects {
+  font-family: Cabin Sketch;
+  font-size: 40px;
+  position: absolute;
+    top: 275px;
+    left: 550px;
+}
+
+#aboutme {
+  font-family: Cabin Sketch;
+  font-size: 30px;
+  position: absolute;
+    top: 400px;
+    left: 365px;
+  white-space: nowrap;
+
+}
+
+#links {
+  font-family: IM Fell English SC
+, Georgia;
+  font-size: 20px;
+  position: absolute;
+  top: 450px;
+  left: 500px;
+}
+
+/* links start */
+a, a:active {
   color: white;
-  width: 95%;
-  height: 30px;
-  color: black;
-}
-
-#navigator a {
-  text-decoration: none;
-  color: black;
-  display: block;
-}
-#navigator a:active {
-  color: black;
   text-decoration: none;
 }
 
-#navigator a:hover {
-  color: black;
-  text-decoration: none;
-  background-color: #CC6AB6;
-  text-align: center;
+a:visited {
+  color: #14CCC7;
 }
 
-#navigator a:visited {
-  color: black;
-  text-decoration: none;
-  background-color: #429997;
-}
+a:hover {
+  color:#FF608C;
+  }
 
-#navigator table {
-  text-align: center;
-  border: 2px solid white;
-}
-#navigator td {
-  text-align: center;
-  width: 30%;
-}
-
-#mainbody {
-  float: left;
-  width: 70%;
-}
-
-#mainbody table {
-  border: 2px solid white;
-  margin-top: 15px;
-}
-
-#mainbody thead td {
-  border-bottom: 2px solid white;
-  padding: 2px;
-}
-
-
-#sidebar {
-  width: 150px;
-  float: right;
-  border: 2px solid white;
-  margin-right: 45px;
-  text-align: center;
-}
-
-img {
-  width: 100px;
-}
-
-#sidebar a, a:active, a:visited {
-  text-decoration: none;
-  color: white;
-}
-
-
-#sidebar a:hover {
-  text-decoration: none;
-  color: #00FF68;
-}

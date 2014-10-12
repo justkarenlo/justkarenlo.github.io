@@ -1,55 +1,53 @@
 <!DOCTYPE html>
-<html>
   <head>
     <title>just.karen's_blog</title>
     <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
-     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Permanent+Marker|Pacifico' rel='stylesheet' type='text/css'>
   </head>
-
   <body>
-      <header>
-        <div id="header">
-          <p id="musings">just my musings...<p>
-        </div>
-      </header>
-      <div class="blogtext">
-          <h4>The one with all the CSS</h4>
-    <br>
+    <div id="maindisplay">
+      <div id="position">
+      <a id="homebutton" href="index.html">&#60;&#60;    return to Blog Home</a>
+      <pre id="smallheader">just my musings...</pre>
+        <div id="actualpost">
+          <h4 id="theone">The one with all the CSS</h4>
+              <br>
 
-    <h6 class="alignright"> 09/28/2014 = Phase 0 Week 2</h6>
+              <p id="date">9/28/2014 :: Phase 0 Week 2</p>
 <br>
-         <p>Hello again! So it's the end of week two and there has been a lot of coding frustration happening! Haha most of all... positioning in terms of arranging divs and tables around the site as well as fixing margin and padding has been hellova trial. So much trial and error, but I know it's just a part of the process. And from the messages I am noticing on either twitter or our community, I'm not alone in this! So this week's post is a bit technical "heavy" as there are a lot of topics to cover! I was suppose to research just one of the following topics, but I seriously really needed to acquiant myself with these topics, you know become bffs. So yeah...also we'll see if I'm able to fit in another Friends' reference, but I think this week will be doubtful :(</p>
+         <p class="indent">Hello again! So it's the end of week two and there has been a lot of coding frustration happening! Haha most of all... positioning in terms of arranging divs and tables around the site as well as fixing margin and padding has been hellova trial. So much trial and error, but I know it's just a part of the process. And from the messages I am noticing on either twitter or our community, I'm not alone in this! So this week's post is a bit technical "heavy" as there are a lot of topics to cover! I was suppose to research just one of the following topics, but I seriously really needed to acquiant myself with these topics, you know become bffs. So yeah...also we'll see if I'm able to fit in another Friends' reference, but I think this week will be doubtful :(</p>
 <br>
-        <h4>::Know-How::</h4>
-        <br>
-        <strong>Padding/Border/Margin</strong>
-        <br>
-         <p>So as a fellow web dev student or just someone who's interesting in coding, the first wall you hit is most likely, what's the difference between margin, border and padding? I have to say the best technique I've learned to assist me throughout my coding challenges are this: in the stylesheet (.css file) use the selector "*" to select all elements of a site and create a border (ex. 2px solid black (or white for my site)). once you've done that you'll be able to see all the borders around the content and focus on just the spacings around everything.</p>
-         <p>Let's focus on the content and work our way out through each layer. Content is the actual "stuff" you have in your div, p, table, td, etc. so most likely, the TEXT. The area/space around the content and border is called a padding. And then the zone outside of the border is your margin. </p>
+        <p id="section">"Know-How"</p>
+
+        <p class="minorsection">Padding/Border/Margin</p>
+
+         <p class="indent">So as a fellow web dev student or just someone who's interesting in coding, the first wall you hit is most likely, what's the difference between margin, border and padding? I have to say the best technique I've learned to assist me throughout my coding challenges are this: in the stylesheet (.css file) use the selector "*" to select all elements of a site and create a border (ex. 2px solid black (or white for my site)). once you've done that you'll be able to see all the borders around the content and focus on just the spacings around everything.</p>
+         <p class="indent">Let's focus on the content and work our way out through each layer. Content is the actual "stuff" you have in your div, p, table, td, etc. so most likely, the TEXT. The area/space around the content and border is called a padding. And then the zone outside of the border is your margin. </p>
         <p>Just think of a shipping box.</p>
-        <p>Content is what you ordered from Amazon. Padding is the styrofoam balls or bubble wrap. Border is the cardboard box that the item was shipped in. And finally, the margin is the space between your box and other boxes that the UPS/USPS shippers give when they throw all their packages into the trunk just before their deliveries. Helpful? Certainly helped bite off some of the edge when I think of it that way. Almost reminds me of the time I learned about the mitochondria and golgi bodies...ANYWAYS. </p>
-        <br>
-        <strong>classes & ids</strong>
-        <br>
-        <p>Moving on...one of greatest tools to use in html is using classes and ids. The best practice to use these are, in my opinion, is to plan ahead. If you know you'll be using some of the same characteristics/themes (design-wise) you'll want to use class. IDs are so specific by nature, that they work great when you know there's only one part of your site you want to look the way it looks.</p>
-        <br>
-        <strong>relative, absolute, and fixed positioning</strong>
+        <p class="indent">Content is what you ordered from Amazon. Padding is the styrofoam balls or bubble wrap. Border is the cardboard box that the item was shipped in. And finally, the margin is the space between your box and other boxes that the UPS/USPS shippers give when they throw all their packages into the trunk just before their deliveries. Helpful? Certainly helped bite off some of the edge when I think of it that way. Almost reminds me of the time I learned about the mitochondria and golgi bodies...ANYWAYS. </p>
+
+        <p class="minorsection">classes & ids</p>
+
+        <p class="indent">Moving on...one of greatest tools to use in html is using classes and ids. The best practice to use these are, in my opinion, is to plan ahead. If you know you'll be using some of the same characteristics/themes (design-wise) you'll want to use class. IDs are so specific by nature, that they work great when you know there's only one part of your site you want to look the way it looks.</p>
+
+        <strong class="minorsection">relative, absolute, and fixed positioning</strong>
         <p>AKA. hell on earth. jk... -ish. You have no idea (or actually, maybe you do) know how much I have struggled with this: </p>
         <p><em>fixed</em> positioning is when the selected item is positioned in association to the browser. This positioning does not budge, so if you're scrolling through a page, it will be nailed down to the same location of that page wherever you go!</p>
         <p><em>relative</em> positioning is when the selected item is positioned in association to its original/default/static position; not the browser. So if you have multiple elements, you'll have to remember where the div/table/etc. placement was original and move (top/left) accordingly.</p>
         <p><em>absolute</em> positioning is an interesting one. so first of all, its positioning is in association to whatever the parent's position is, IF that parents position type is NOT static. So example, I have a div with an id "parent" and a div within the "parent" div called "child." If the child's position is set to absolute, it will look to see if it's parents position is static or other. If the parent's position is static, the child will move in association to the browser. If the parent's position is other (ie. absolute/fixed/absolute) then it will move in association to the position the parent is currently in.</p>
-        <br>
-        <p>Wheww lots to take in, but I hope that was clear. I had someone just run this through with me..again.. and I think I'm finally getting it...-ish.</p>
-        <br>
-        <strong>inline vs inline-block</strong>
-        <p>Last of our topics for tonight, SO the display properties inline and inline-block are relatively easy to understand. When a display is set to inline it will condense the divs/tables to the bare minimum size based on the content (content size is left untouched) and also place them...in line or in a row fashion. Now a inline-block display will do the same but instead it will expand the padding around the content to fit the full potential of a block and then place each into a row.</p>
-        <br>
-        <p>wheww I'm tired! I hope these explanations are helpful. Hopefully, one day when I'm extremely bored I'll come back and review my entries and correct anything I may have said that made things confusing or maybe just outright wrong! (goodluck to me..) anyways, thanks for stopping by and reading my exorbitantly long posts! And sorry, doesn't seem a Friends reference made it in this post! yonks! next time...
 
-    </div>
+        <p class="indent">Wheww lots to take in, but I hope that was clear. I had someone just run this through with me..again.. and I think I'm finally getting it...-ish.</p>
 
-      <div id="footer">
-          <p>this is a footer</p>
+        <p class="minorsection">inline vs inline-block</>
+        <p class="indent">Last of our topics for tonight, SO the display properties inline and inline-block are relatively easy to understand. When a display is set to inline it will condense the divs/tables to the bare minimum size based on the content (content size is left untouched) and also place them...in line or in a row fashion. Now a inline-block display will do the same but instead it will expand the padding around the content to fit the full potential of a block and then place each into a row.</p>
+
+        <p class="indent">wheww I'm tired! I hope these explanations are helpful. Hopefully, one day when I'm extremely bored I'll come back and review my entries and correct anything I may have said that made things confusing or maybe just outright wrong! (goodluck to me..) anyways, thanks for stopping by and reading my exorbitantly long posts! And sorry, doesn't seem a Friends reference made it in this post! yonks! next time...
+        </div>
+        <pre id="links">
+          <a href="../index.html">main home</a>     <a href="http://www.facebook.com/justkarenlo">facebook</a>     <a href="https://twitter.com/justkarenlo">twitter</a>     <a href="https://www.linkedin.com/in/justkarenlo">linkedin</a>
+        </pre>
       </div>
+    </div>
   </body>
+
 </html>
