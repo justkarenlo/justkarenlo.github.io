@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+  <head>
+    <title>just.karen's_blog</title>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Permanent+Marker|Pacifico' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <div id="maindisplay">
+      <div id="position">
+      <a id="homebutton" href="index.html">&#60;&#60;    return to Blog Home</a>
+      <pre id="smallheader">just my musings...</pre>
+        <div id="actualpost">
+          <h4 id="theone">The one with the Classes</h4>
+              <br>
+              <p id="date">10/17/2014 :: Phase 0 Week 5</p>
+          <p>This week has been chock-full of creating classes, methods, instance variables, instance methods, and all that jazz. This week made me remember a TA from college. She was TAing an English/Humanities, but she used to be a nurse in the neurological department. She would always say:
+          <p style="color: #98E6B8"> Anytime you are working on something, whether it is thinking through logic/philosophy, or trying to solve something, there will be a time when you run into a wall. A wall your brain <em>feels</em>. This is usually when most people will give up, but really it's just the brain trying to create new neurological connections. Don't give up, keep chipping at that wall and it will follow through for you.</p>
+          <p class="indent">That being said, you should always learn that at some certain extent you need to stop to at least take a break; because next thing you know you just realized you've been chipping at the wrong thing the whole time... Now onto the topic that gave me such a blockage this past week:</p>
+          <p id="section">"Know-How"</p>
+          <pre style="font-size: 10pt; background-color: #429997">
+
+ class FriendsThanksgiving
+      attr_accessor :dish
+      def initialize(new_dish)  <span style="color: black"> &#60;-- instance method </span>
+        @dish = new_dish  <span style="color: black"> &#60;-- @dish is an instance variable </span>
+        puts "Let's have #{@dish} for our Friends' Thanksgiving!"
+      end
+      def prepare_instead(new_dish)  <span style="color: black"> &#60;-- instance method </span>
+        @dish = new_dish
+        puts "We now have #{@dish} for the Friends' Thanksgiving."
+      end
+      def locked_out(new_dish)<span style="color: black"> &#60;-- instance method </span>
+        @dish.insert(0,"burnt ")
+        put "Got locked out; Friends now have burnt #{@dish} for Thanksgiving..."
+      end
+  end
+
+  monica = FriendsThanksgiving.new("potatoes with lumps")
+  <span style="color: #bebdc6; margin-left: 5px">=> Let's have potatoes with lumps for our Friends' Thanksgiving!</span>
+  monica.dish
+  <span style="color: #bebdc6; margin-left: 5px">=> "potatoes with lumps"</span>
+    <span style="color: black; margin-left: 5px"># Ross wanted lumps but now Joey wants his Thanksgiving with potatoes
+  a different way:</span>
+  monica.change("potatoes in the form of tots")
+  <span style="color: #bebdc6; margin-left: 5px">=> We now have potatoes in the form of tots for the Friends' Thanksgiving.</span>
+  monica.dish
+  <span style="color: #bebdc6; margin-left: 5px">=> "potatoes in the form of tots" </span>
+    <span style="color: black; margin-left: 5px"># Oh, but wait Phoebe's mom used to make Thanksgiving potatoes another way: </span>
+  monica.change("potatoes with peas and onions")
+  <span style="color: #bebdc6; margin-left: 5px">=> We now have potatoes with peas and onions for the Friends' Thanksgiving.</span>
+  monica.dish
+  <span style="color: #bebdc6; margin-left: 5px">=> "potatoes with peas and onions"</span>
+        </pre>
+
+        <p class="indent">Alright, here's the first example. We have:</p>
+        <ul>
+          <li><span style="font-weight: bold; color: #F55C86">class:</span> a template created for the instance FriendsThanksgiving. (Each year they all have different shenanigans.)
+          </li>
+          <li><span style="font-weight: bold; color: #F55C86">instance variable:</span> a defined variable that will be used within the instance methods of a class. In this instance, I focus on potatoes and the specific type Monica will cook for the instance FriendsThanksgiving.
+          </li>
+          <li><span style="font-weight: bold; color: #F55C86">instance method:</span> I focused on the instance when types of potatoes were in question, but I want to change it from my originally defined type.  The instance method takes in a parameter to actively change it into something else (say, in the form of tots or with peas and onions).
+          </li>
+          </ul>
+          <p>Now we have another instance for another year(instance) and another interesting dish(instance variable):</p>
+  <pre style="font-size: 10pt; background-color: #429997">
+  rachel = FriendsThanksgiving.new("English Trifle")
+  <span style="color: #bebdc6; margin-left: 5px">=> Let's have English Trifle for our Friends' Thanksgiving!</span>
+  rachel.prepare_instead("Shepherd's Pie")
+  <span style="color: #bebdc6; margin-left: 5px">=> We now have Shepherd's Pie for the Friends' Thanksgiving.</span>
+  <span style="color: black; margin-left: 5px"># Ultimately, what Rachel actually makes...</span>
+  rachel.prepare_instead("half an english trifle and half a shepherd's Pie")
+  <span style="color: #bebdc6; margin-left: 5px">=> We now have half an english trifle and half a shepherd's Pie for the Friends'
+  Thanksgiving.</span>
+  <span style="color: black; margin-left: 5px"># But of course with Friends, sometimes things just go wrong:</span>
+  monica.locked_out
+  <span style="color: #bebdc6; margin-left: 5px">=> Got locked out; Friends now have burnt potatoes with peas and onions for
+  Thanksgiving...</span>
+  rachel.locked_out
+  <span style="color: #bebdc6; margin-left: 5px">=> Got locked out; Friends now have burnt half an english trifle and half a
+  shepherd's Pie for Thanksgiving...</span>
+  </pre>
+
+        </div>
+        <pre id="links">
+          <a href="../index.html">main home</a>     <a href="http://www.facebook.com/justkarenlo">facebook</a>     <a href="https://twitter.com/justkarenlo">twitter</a>     <a href="https://www.linkedin.com/in/justkarenlo">linkedin</a>
+        </pre>
+      </div>
+      </div>
+  </body>
+
+</html>
