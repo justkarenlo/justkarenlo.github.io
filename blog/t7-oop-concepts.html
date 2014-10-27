@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <head>
+    <title>just.karen's_blog</title>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Permanent+Marker|Pacifico' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <div id="maindisplay">
+      <div id="position">
+      <a id="homebutton" href="index.html">&#60;&#60;    return to Blog Home</a>
+      <pre id="smallheader">just my musings...</pre>
+        <div id="actualpost">
+          <h4 id="theone">The one with the Functional vs Object-Oriented Programming</h4>
+              <br>
+              <p id="date">10/26/2014 :: Phase 0 Week 6</p>
+              <p id="section">"Know-How"</p>
+              <p class="indent">In this post, I'll be going through a simple overview of the difference between Functional versus Object-Oriented Programming. There are <em>many</em> more types of programming out there in the world (it's kind of crazy how many there are!). But the key thing to keep in mind is that these <em>types</em> of programming styles are there to use so that you can ultimately write code that is the most functional for your objective. In the past 6 weeks of my DBC journey we've practiced both functional and object-oriented programming.</p>
+              <p class="minorsection">Functional Programming</p>
+              <p class="indent"><span style="color: #98E6B8">Functional programming</span> to put in simple terms is a type of programming in its most basic form. It's purpose is single dimensional and usually used in cases to calculate arithmetic. Simple problems with ultimately just one moving piece. These are great for particularly specific portions of your program that you can add into the larger scheme of your code. Remember, when you're coding, you normally don't just stick to one style. You use whatever helps you get the job done.</p>
+              <p>An simple example of this would be creating a pyramid of stars:</p>
+              <pre style="background-color: #14CCC8; color: black; font-size: 14px">
+
+                def pyramid(size)
+                  if size > 0
+                    size.times do
+                      print "*"
+                    end
+                    size -= 1
+                    puts
+                    pyramid(size)
+                  end
+                end
+              </pre>
+              <p class="minorsection">Object-Oriented Programming</p>
+              <p class="indent"><span style="color: #98E6B8">Object-Oriented Programming</span> (OO Programming) on the other hand is a whole other <strong>beast</strong>. This style is used when you have many moving parts to a problem. Usually this will include using things such as classes, modules, instance variables, global variables, instance methods, etc. OO Programming involves multiple variables being used and manipulated to get the data you may need. This is one of the most common style of programming and has been emphasized as such in DBC (we've spent about a good 1.5 weeks on this stuff!).
+
+                An example of OO programming would be soemthing like our Drawer/Silverware challenge this week at DBC. We have a class called Drawer and a separate class called Silverware. A variable is named for each instance of Silverware of which  creates a type that gets added to the one instance of drawer. </p>
+              <p class="indent">And that my <em>friends</em> concludes my spiel on Functional versus OO programming! Until next time folks! Have a good one.</p>
+
+
+
+        </div>
+        <pre id="links">
+          <a href="../index.html">main home</a>     <a href="http://www.facebook.com/justkarenlo">facebook</a>     <a href="https://twitter.com/justkarenlo">twitter</a>     <a href="https://www.linkedin.com/in/justkarenlo">linkedin</a>
+        </pre>
+      </div>
+      </div>
+  </body>
+
+</html>
