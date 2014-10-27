@@ -26,6 +26,7 @@ html {
 
 #actualtext {
   /*overflow: scroll; use this when more posts*/
+  /*need to fix this for long words */
 }
 
 /* links start */
