@@ -54,6 +54,7 @@ html {
   font-size: 20px;
 }
 
+/* SCROLL BAR styling */
 ::-webkit-scrollbar {
       width: 15px;
 } /* this targets the default scrollbar (compulsory) */
@@ -136,3 +137,14 @@ pastel green: #98E6B8
 watermelon pink: #F55C86
 violet: #CC6AB6
 */
+
+/* standard table properties */
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid white;
+  padding: 5px;
+}
+

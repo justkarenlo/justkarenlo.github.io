@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+  <head>
+    <title>just.karen's_blog</title>
+
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Permanent+Marker|Pacifico' rel='stylesheet' type='text/css'>
+     <style>
+          span {
+            color: #F55C86;
+          }
+          li {
+            margin-left: -20px;
+          }
+    </style>
+  </head>
+  <body>
+
+    <div id="maindisplay">
+      <div id="position">
+      <a id="homebutton" href="index.html">&#60;&#60;    return to Blog Home</a>
+      <pre id="smallheader">just my musings...</pre>
+        <div id="actualpost">
+          <h4 id="theone">The one with the Ruby and JavaScript comparison</h4>
+              <br>
+              <p id="date">11/02/2014 :: Phase 0 Week 7</p>
+              <p class ="indent">When I first began this journey into this amazing coding world, I was told that once you learn a language, and I mean <em>really</em> learn it, it's really quite simple when you want to pick up another language. I can see that now. This week, my cohort family and I were introduced to JavaScript. And boy, it was a doozy. As soon as I began reading from our JavaScript textbook, I realized immediately that I <strong>need to take notes</strong>. And I did. I began a table that showed the differences between JavaScript and Ruby. What I noticed most importantly, was that <em>yes</em> there are differences between the two, but ultimately, it felt like dealing with a 'sibling' of Ruby. You had methods that do similar things, but the syntax is the only thing that is different (at least to the naked eye of a beginning programmer). I created the following table to show the similarities and differences for myself; but heck, why not share this 'nugget' of knowledge with you all? It's not a complete list by all means, but definitely a quick reference list that I, myself, will definitely be looking to every now and again.
+              </p>
+              <br>
+              <table>
+                <tr>
+                  <td style="text-align: center">Ruby</td>
+                  <td style="text-align: center">JavaScript</td>
+                </tr>
+                <tr>
+                  <td><span>print</span></td>
+                  <td><span>console.log();</span></td>
+                </tr>
+                <tr>
+                  <td><span>.class</span> method</td>
+                  <td><span>typeof</span></td>
+                </tr>
+                <tr>
+                  <td>nil</td>
+                  <td>null, undefined, NaN (not a number)</td>
+                </tr>
+                <tr>
+                  <td>check if something is equal to another: ==</td>
+                  <td>check if something is equal to another: ===</td>
+                </tr>
+                <tr>
+                  <td>hash = {} </td>
+                  <td>hash template used to create an object:
+                    var hash = {}</td>
+                </tr>
+                <tr>
+                  <td><span>end</span> signifies the end of a block</td>
+                  <td><span>;</span>  signifies the end of a statement</td>
+                </tr>
+                <tr>
+                  <td><span>.min</span> or <span>.max</span></td>
+                  <td><span>Math.min</span> or <span>Math.max</span></td>
+                </tr>
+                <tr>
+                  <td>unable to generate pop windows</td>
+                  <td><span>alert();
+                      confirm();
+                      prompt(question, answer user starts with);</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><span>.to_i</span></td>
+                  <td><span>Number("")</span> or <span>parseInt("")</span></td>
+                </tr>
+                <tr>
+                  <td>case...when...</td>
+                  <td>switch...case...</td>
+                </tr>
+                <tr>
+                  <td>increments of 1:
+                  <p>x += 1</p>
+                  <p>(same thing as: x = x + 1)</p></td>
+                  <td>increments of 1:
+                    <p>x++</p></td>
+                </tr>
+                <tr>
+                  <td>self</td>
+                  <td>this</td>
+                </tr>
+                 <tr>
+                  <td><span>raise</span> ArgumentError.new("")</td>
+                  <td><span>throw</span> TypeError();</td>
+                </tr>
+                <tr>
+                  <td>object<span>.delete</span>(thing_to_delete)</td>
+                  <td><span>delete</span> object.thing_to_delete</td>
+                </tr>
+
+            </table>
+
+            <p class="indent">As you can see, there are a lot of actions to objects that match up between Ruby and JavaScript; however, the syntax is quite different. I hope that this list will give you an idea of how you can solve JavaScript problems if you're more familiar with Ruby and vice versa.</p>
+            <p class="indent">Of course syntax isn't the only thing that's different between the two languages. The way each handles and defines an object is quite characteristic and is why one language can be more powerful than another in certain aspects.</p>
+
+            <table>
+              <tr>
+                <td style="text-align: center">Ruby</td>
+                <td style="text-align: center">JavaScript</td>
+              </tr>
+              <tr>
+                <td valign="top">An object is:
+                  <ul>
+                    <li>an instance of a class (a class which has been defined by attributes and methods/functions)
+                      <ul>
+                        <li>this is why it you can use 'self' only after you've created a Class <em>and</em> defined an instance
+                        </li>
+                         <li>this is also why arrays, <span style="color: #CC6AB6">hashes</span>, strings, numbers, etc. are considered objects; they are instances of those corresponding classes (ex. Array.new, Hash.new, String.new)
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </td>
+                <td>An object is:
+                  <ul>
+                    <li>everything.</li>
+                    <li>a function (this is why it can call upon itself using 'this'</li>
+                    <li>more powerful in JavaScript than in Ruby because of its ability to house, add, and modify methods/functions outside of the object itself</li>
+                      <ul>
+                        <li>this can be accomplished without the use of a class/prototype/template (I view these three as synonymous)</li>
+                        <li>Example:</li>
+                      </ul>
+                  </ul>
+       <pre style="background: #14CCC8; color: black; font-size: 12px">var monica = {
+    name: "Monica";
+    career: "chef";
+    spouse: "Chandler";
+    apartment: "dirty";
+    <span style="color: grey">// here it comes...</span>
+    clean: function () {
+        this.apartment = "clean";
+        <span style="color: grey">// you can also use <span style="color: black; font-style: italic">monica.apartment = "clean";</span></span>
+    }
+    <span style="color: grey">// ladies and gentlemen, we have ourselves an object
+      //within an object! Do you see it?</span>
+  }
+  </pre>
+                </td>
+              </tr>
+            </table>
+            <p class="indent">From the example above you can see how JavaScript has an increased functionality when it comes to its objects. The first object is: the defined <span style="color: #98E6B8">monica = {}</span> and the object within the monica object is: <span>clean</span> function. But <strong>HOLD THE PHONE</strong>, doesn't the object <span style="color: #98E6B8">monica</span>, look just like a hash in Ruby?</p>
+            <pre style="background: #14CCC8; color: black; font-size: 12px">
+            <strong>Ruby hash</strong>
+            hash_name = { key => value }
+
+            <strong>JavaScript object</strong>
+            var object_name = { property : value }
+            </pre>
+
+              <p class="indent">As mentioned in the table above, only JavaScript allows you to do more with the data you provide. JavaScript allows you to add, modify, and remove these objects just as easily <em>outside</em> of the object. </p>
+
+              <pre style="background: #14CCC8; color: black; font-size: 12px">
+              <strong>Adding a NEW object</strong>
+              monica.play_game = function {
+                  console.log("Monica throws plate");
+            }
+              <strong>Removing an object</strong>
+              delete monica.clean;
+
+              <strong>Altering object (similar to adding)</strong>
+              monica.play_game = function {
+                  console.log("Monica loses apartment");
+            }
+            </pre>
+            <p class="indent">As you can see, we could never do any of this to our basic hash in Ruby. In this way, JavaScript is more powerful due to its object-oriented driven programming. I hope I helped you ease into the understanding of the differences and similarities between Ruby and JavaScript. I know for darn sure it's confusing at first, but with practice (as with anything in life) we'll get there.</p>
+        </div>
+        <pre id="links">
+          <a href="../index.html">main home</a>     <a href="http://www.facebook.com/justkarenlo">facebook</a>     <a href="https://twitter.com/justkarenlo">twitter</a>     <a href="https://www.linkedin.com/in/justkarenlo">linkedin</a>
+        </pre>
+      </div>
+      </div>
+  </body>
+
+</html>
