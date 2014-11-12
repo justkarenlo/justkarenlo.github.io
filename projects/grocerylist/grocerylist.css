@@ -1,0 +1,51 @@
+html {
+  font-family: Poiret One;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: #98E6B8;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+#inputbox {
+  text-align: center;
+}
+
+#inputitem {
+  height: 30px;
+  width: ;
+  border: ;
+  font-size: 18px;
+  text-align: center;
+}
+
+#button {
+  height: 35px;
+  width: 75px;
+  text-decoration: none;
+  border: none;
+  background-color: #14CCC8;
+  padding-top: 12px;
+  padding-bottom: 21px;
+  color: white;
+}
+
+#button:hover {
+  background-color: #F55C86;
+}
+
+.list {
+  color: black;
+  font-family: Bitter;
+  font-size: 20px;
+}
+
+
+
