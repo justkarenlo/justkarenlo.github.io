@@ -1,0 +1,125 @@
+html {
+  background-image: url("../imgs/background4.png");
+  background-repeat: repeat-x;
+}
+
+header {
+  font-family: Sacramento;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+#main {
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+  top: 50px;
+  display: inline-block;
+}
+
+#me {
+  width: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  font-family: Sacramento;
+  color: black;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.social:hover {
+  background-color: pink;
+}
+
+#links {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+a:hover{
+  font-size: 30px;
+}
+
+/*.social {
+  font-family: Fredericka the Great;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #14CCC8;
+  color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+}*/
+
+.leftflash {
+  font-family: Fredericka the Great;
+  font-size: 80px;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.rightflash {
+  font-family: Fredericka the Great;
+  font-size: 80px;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+#twitter {
+  width: 20px;
+}
+
+#twitter:hover {
+  width: 30px;
+}
+
+#facebook {
+  width: 20px;
+}
+
+#facebook:hover {
+  width: 30px;
+}
+
+#linkedin {
+  width: 25px;
+}
+
+#linkedin:hover {
+  width: 35px;
+}
+
+#google {
+  width: 25px;
+}
+
+#google:hover {
+  width: 35px;
+}
+
+#git {
+  width: 20px;
+}
+
+#git:hover {
+  width: 30px;
+}
+
+footer {
+  font-family: Alegreya;
+  margin-top: 30px;
+  text-align: center;
+  /*font-weight: bold;*/
+  margin-bottom: 40px;
+  font-size: 20px;
+}
