@@ -1,0 +1,69 @@
+html {
+  color: white;
+  font-family: Fredericka the Great, Georgia;
+  background-color: #17161b;
+  margin: 0px;
+  font-size: 24px;
+}
+
+#maindisplay {
+  width: 1024px;
+  height: 768px;
+  margin: 0px auto;
+  background-image: url("../imgs/final_display.jpg");
+  background-repeat: no-repeat;
+}
+
+#position {
+  position: relative;
+ /* top: 175px;
+  left: 150px;*/
+}
+#actualtext {
+  font-size: 20px;
+  overflow-y: scroll;
+  width: 645px;
+  height: 390px;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  padding-left: 20px;
+  padding-right: 5px;
+  line-height: 20px;
+}
+#underline {
+  text-decoration: underline;
+}
+
+/* links start */
+a, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #14CCC7;
+}
+
+a:hover {
+  color:#FF608C;
+  }
+
+#homebutton {
+  font-family: IM Fell English SC
+, Georgia;
+  font-size: 30px;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+
+#sociallinks {
+  font-family: IM Fell English SC
+, Georgia;
+  position: absolute;
+  top: 475px;
+  left: 840px;
+}
+
+/* links end */

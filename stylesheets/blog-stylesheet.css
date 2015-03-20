@@ -1,0 +1,150 @@
+html {
+  color: white;
+  font-family: Georgia;
+  background-color: #17161b;
+  margin: 0px;
+  font-size: 24px;
+}
+
+#maindisplay {
+  width: 1024px;
+  height: 768px;
+  margin: 0px auto;
+  background-image: url("../imgs/display_blog.jpg");
+  background-repeat: no-repeat;
+}
+
+#position {
+  position: relative;
+}
+
+#homebutton {
+  font-family: IM Fell English SC
+  , Georgia;
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+#smallheader {
+  font-family: Pacifico;
+  font-size: 20px;
+  color: #bebdc6;
+  position: absolute;
+  top: 5px;
+  left: 790px;
+}
+
+#actualpost {
+  font-family: Georgia;
+  font-size: 16px;
+  overflow-y: scroll;
+  width: 680px;
+  height: 525px;
+  position: absolute;
+  top: 110px;
+  left: 130px;
+  padding-right: 5px;
+  line-height: 20px;
+}
+
+#theone {
+  font-family: Permanent Marker;
+  font-size: 20px;
+}
+
+/* SCROLL BAR styling */
+::-webkit-scrollbar {
+      width: 15px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      background-color: transparent;
+      ;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      background-color: #17161b;
+      ;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      background-color: transparent;
+      ;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+      background-color: transparent;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+/* links start */
+a, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #14CCC7;
+}
+
+a:hover {
+  color:#FF608C;
+  }
+
+#links {
+  position: absolute;
+  top: 675px;
+  left: 350px;
+  font-family: IM Fell English SC
+, Georgia;
+}
+
+
+/* links end */
+
+/* styling basics */
+#underline {
+  text-decoration: underline;
+}
+
+#date {
+  text-align: right;
+  font-family: IM Fell English SC
+, Georgia;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+#section {
+  font-family: Permanent Marker;
+color: #98e6b8;
+  font-size: 18px;
+}
+
+.minorsection {
+  font-family: Permanent Marker;
+  color: #CC6AB6;
+  font-size: 15px;
+}
+
+/* Color notes:
+light blue: #14CCC8
+mute blue: #429997
+pastel green: #98E6B8
+watermelon pink: #F55C86
+violet: #CC6AB6
+*/
+
+/* standard table properties */
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid white;
+  padding: 5px;
+}
+

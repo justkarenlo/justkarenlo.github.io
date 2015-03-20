@@ -76,7 +76,7 @@ button:hover {
 .default-show {
   display: block;
   height: 100%;
-  background-image: url("imgs/meandbridge.jpg");
+  background-image: url("../imgs/meandbridge.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -89,7 +89,7 @@ button:hover {
 
 .about-me-show {
   height: 100%;
-  background-image: url('imgs/me2.jpg');
+  background-image: url('../imgs/me2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -142,13 +142,13 @@ button:hover {
 }
 
 #traverse-image {
-  background-image: url('imgs/traverse.png');
+  background-image: url('../imgs/traverse.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #tofood-image {
-  background-image: url('imgs/tofood.png');
+  background-image: url('../imgs/tofood.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
