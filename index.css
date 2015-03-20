@@ -1,0 +1,154 @@
+/** {
+  outline: 1px solid red;
+}*/
+
+html {
+  font-family: Poiret One;
+}
+
+body {
+  margin: 0;
+}
+
+#float-left {
+  float: left;
+  height: 100%;
+  margin-left: 2%;
+  width: 15%;
+}
+
+#left-logo {
+  font-family: Megrim;
+  text-align: center;
+}
+
+#left-logo a {
+  text-decoration: none;
+  color: black;
+}
+
+#btn-area {
+  text-align: center;
+  margin-top: 20%;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid black;
+  display: block;
+  font-family: Julius Sans One;
+  font-size: 1em;
+  font-weight: bolder;
+  margin-bottom: 4%;
+  margin-left: 25%;
+  padding: 10px;
+  width: 125px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#social-icons {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+#social-icons i {
+  color: black;
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+#social-icons i:hover {
+  color: #ffb400;
+}
+
+#float-right {
+  float: right;
+  height: 100%;
+  /*margin-right: 2%;*/
+  width: 78%;
+}
+
+.default-show {
+  display: block;
+  height: 100%;
+  background-image: url("imgs/meandbridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.default-show h1 {
+  margin-top: 0;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.about-me-show {
+  height: 100%;
+  background-image: url('imgs/me2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.about-me-show h1 {
+  margin-left: 2px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: white;
+  font-weight: bolder;
+}
+
+#about-me-title {
+  float: left;
+  margin-left: 2px;
+  font-weight: bolder;
+}
+
+#profile {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  float: right;
+  font-weight: bolder;
+  height: 95%;
+  margin-top: 2%;
+  margin-right: 2%;
+  text-indent: 20px;
+  overflow: scroll;
+  width: 50%;
+}
+
+#profile-segment {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.25em;
+  text-indent: 20px;
+}
+
+.project-show a {
+  text-decoration: none;
+}
+
+.project-boxes {
+  text-decoration: none;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+#traverse-image {
+  background-image: url('imgs/traverse.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#tofood-image {
+  background-image: url('imgs/tofood.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
