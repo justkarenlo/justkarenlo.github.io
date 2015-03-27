@@ -48,7 +48,7 @@ body {
     }
 
     .main-body {
-      border: 1px solid red;
+      /*border: 1px solid red;*/
       height: 55%;
       width: 70%;
       margin-right: auto;
@@ -66,7 +66,7 @@ body {
     }
 
     #aboutme {
-      border: 1px solid red;
+      /*border: 1px solid red;*/
       position: absolute;
       left: -3000px;
       margin-top: 3%;
@@ -79,7 +79,7 @@ body {
     }
 
     #projects {
-      border: 1px solid red;
+      /*border: 1px solid red;*/
       position: absolute;
       left: -3000px;
       transition: left 1s ease;
