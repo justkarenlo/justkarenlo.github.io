@@ -1,154 +1,192 @@
-/** {
-  outline: 1px solid red;
-}*/
-
 html {
-  font-family: Poiret One;
+  font-family: Georgia;
+  color: white;
 }
 
 body {
   margin: 0;
 }
 
-#float-left {
-  float: left;
-  height: 100%;
-  margin-left: 2%;
-  width: 15%;
+
+@media (max-width: 2000px) {
+    #main-background {
+      background-image: url("../imgs/me.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin: 0;
+      padding: 0;
+    }
+
+    #name {
+      font-family: Megrim;
+      display: relative;
+      font-size: 2em;
+      color: white;
+      font-weight: bold;
+    }
+
+
+
+    #social-icons {
+      text-align: center;
+    }
+
+    #social-icons div {
+      display: inline-block;
+      margin: 1em;
+    }
+
+    #social-icons img {
+      max-width: 40px;
+    }
+
+    #social-icons img:hover {
+      opacity: 0.5;
+    }
+
+    .main-body {
+      height: 55%;
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      /*text-align: right;*/
+    }
+
+    .main-body p {
+      font-family: Julius Sans One;
+      font-weight: bolder;
+      font-size: 1.4em;
+      margin: 1em;
+      /*padding-left: 40%;*/
+    }
+
+    #aboutme {
+      border: 1px solid red;
+      position: absolute;
+      left: -3000px;
+      margin-top: 3%;
+      margin-right: 15%;
+      transition: left 1s ease;
+    }
+
+    #aboutme p {
+      padding-left: 40%;
+    }
+
+    #projects {
+      border: 1px solid red;
+      position: absolute;
+      left: -3000px;
+      transition: left 1s ease;
+      margin-top: 6%;
+      margin-left: 35%;
+      margin-right: 1%;
+    }
+
+    #projects div {
+      display: inline-block;
+    }
+
+    #projects p {
+      padding-left: 0;
+      text-align: left;
+      margin: 0;
+      color: white;
+    }
+
+    #projects img {
+      max-width: 250px;
+      opacity: 0.7;
+    }
+
+    #projects img:hover {
+      opacity: 1;
+    }
+
+    #title {
+      display: relative;
+      font-size: 3em;
+      color: white;
+      text-align: center;
+      font-family: Fredericka the Great;
+      top: 40%;
+    }
+
+    #btn-area {
+      text-align: center;
+      position: relative;
+    }
+
+    #btn-area button {
+      transition: background 0.5s ease;
+      border: 2px solid white;
+      background: transparent;
+      color: white;
+      width: 20%;
+      max-width: 200px;
+      padding: 1.5em 2em 1.5em 2em;
+      margin: 1em;
+      min-width: 150px;
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    #btn-area button:hover {
+      background: white;
+      color: black;
+    }
+  }
+
+
+@media (max-width: 1000px) {
+  #aboutme {
+    margin-right: 5%;
+  }
 }
 
-#left-logo {
-  font-family: Megrim;
-  text-align: center;
-}
+@media (max-width: 550px) {
+  #title {
+    font-size: 2em;
+  }
 
-#left-logo a {
-  text-decoration: none;
-  color: black;
-}
+  .main-body {
+    text-align: right;
+  }
 
-#btn-area {
-  text-align: center;
-  margin-top: 20%;
-}
+  #aboutme {
+    overflow: scroll;
+    margin-right: 10%;
 
-button {
-  background-color: transparent;
-  border: 2px solid black;
-  display: block;
-  font-family: Julius Sans One;
-  font-size: 1em;
-  font-weight: bolder;
-  margin-bottom: 4%;
-  margin-left: 25%;
-  padding: 10px;
-  width: 125px;
-}
+    width: 50%;
+  }
 
-button:hover {
-  background-color: black;
-  color: white;
-}
+  #aboutme p {
+    padding-left: 0;
+    font-size: 1em;
+  }
 
-#social-icons {
-  text-align: center;
-  position: relative;
-  top: 50%;
-}
+  #projects {
+    margin-left: 1%;
+    max-width: 70% ;
+  }
 
-#social-icons i {
-  color: black;
-  font-size: 40px;
-  padding-left: 10px;
-}
+  #projects div {
+    display: block;
+    margin-bottom: 5%;
+  }
 
-#social-icons i:hover {
-  color: #ffb400;
-}
+  #projects div p {
+    text-align: left;
+    font-size: 2em;
+    text-decoration: none;
+  }
 
-#float-right {
-  float: right;
-  height: 100%;
-  /*margin-right: 2%;*/
-  width: 78%;
-}
-
-.default-show {
-  display: block;
-  height: 100%;
-  background-image: url("../imgs/meandbridge.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.default-show h1 {
-  margin-top: 0;
-  padding-top: 2%;
-  padding-left: 2%;
-}
-
-.about-me-show {
-  height: 100%;
-  background-image: url('../imgs/me2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.about-me-show h1 {
-  margin-left: 2px;
-  margin-bottom: 0;
-  margin-top: 0;
-  color: white;
-  font-weight: bolder;
-}
-
-#about-me-title {
-  float: left;
-  margin-left: 2px;
-  font-weight: bolder;
-}
-
-#profile {
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 5px;
-  float: right;
-  font-weight: bolder;
-  height: 95%;
-  margin-top: 2%;
-  margin-right: 2%;
-  text-indent: 20px;
-  overflow: scroll;
-  width: 50%;
-}
-
-#profile-segment {
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 1.25em;
-  text-indent: 20px;
-}
-
-.project-show a {
-  text-decoration: none;
-}
-
-.project-boxes {
-  text-decoration: none;
-  display: inline-block;
-  width: 400px;
-  height: 200px;
-  border: 2px solid black;
-}
-
-#traverse-image {
-  background-image: url('../imgs/traverse.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#tofood-image {
-  background-image: url('../imgs/tofood.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  #projects img {
+    display: none;
+  }
 }

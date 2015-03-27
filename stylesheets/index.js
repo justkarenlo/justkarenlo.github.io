@@ -1,18 +1,22 @@
 $(document).ready(function () {
-  $('#about-me-btn').on('click', function () {
-    var that = $(this)
-    $('.about-me-show').slideDown("slow");
 
-    $('.projects-show').css('display', 'none');
-    $('.blog-show').css('display', 'none');
-    $('.default-show').css('display', 'none');
+  $('#about-me-btn').on('click', function () {
+    $('#projects').css('left', '-3000px')
+    setTimeout( function () {$('#projects').css('display', 'none')
+    }, 200);
+
+    $('#aboutme').css('display', 'block')
+    setTimeout( function () {$('#aboutme').css('left', 0)
+    }, 200);
   })
   $('#projects-btn').on('click', function () {
-    $('.projects-show').slideDown("slow");
+    $('#aboutme').css('left', '-3000px')
+    setTimeout( function () {$('#aboutme').css('display', 'none')
+    }, 200);
 
-    $('.about-me-show').css('display', 'none');
-    $('.blog-show').css('display', 'none');
-    $('.default-show').css('display', 'none');
+    $('#projects').css('display', 'block')
+    setTimeout( function () {$('#projects').css('left', 0)
+    }, 200);
   })
   $('#blog-btn').on('click', function () {
    window.location.href = 'http://justkarenlo.github.io/blog'
