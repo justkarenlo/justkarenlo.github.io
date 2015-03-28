@@ -56,6 +56,13 @@ body {
   top: 40%;
 }
 
+.main-body {
+  height: 55%;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .main-body p {
   font-family: Julius Sans One;
   font-weight: bolder;
@@ -74,6 +81,8 @@ body {
 #aboutme p {
   text-align: center;
   color: black;
+  margin-left: 40%;
+
 }
 
 #projects {
@@ -89,6 +98,26 @@ body {
 #projects a {
   text-decoration: none;
   color: white;
+}
+
+#projects div {
+  display: inline-block;
+}
+
+#projects p {
+  padding-left: 0;
+  text-align: left;
+  margin: 0;
+  color: white;
+}
+
+#projects img {
+  max-width: 250px;
+  opacity: 0.7;
+}
+
+#projects img:hover {
+  opacity: 1;
 }
 
 #btn-area {
@@ -122,39 +151,6 @@ button:focus {
 @media (min-width: 2000px) {
   #title {
     font-size: 3em;
-  }
-}
-
-@media (max-width: 2000px) {
-  .main-body {
-    height: 55%;
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #aboutme p {
-    margin-left: 40%;
-  }
-
-  #projects div {
-    display: inline-block;
-  }
-
-  #projects p {
-    padding-left: 0;
-    text-align: left;
-    margin: 0;
-    color: white;
-  }
-
-  #projects img {
-    max-width: 250px;
-    opacity: 0.7;
-  }
-
-  #projects img:hover {
-    opacity: 1;
   }
 }
 
