@@ -19,6 +19,7 @@ $(document).ready(function () {
     }, 200);
   })
   $('#blog-btn').on('click', function () {
-   window.location.href = 'http://justkarenlo.github.io/blog'
+   // window.location.href = 'http://justkarenlo.github.io/blog'
+   window.open('http://justkarenlo.github.io/blog', '_blank')
   })
 });
