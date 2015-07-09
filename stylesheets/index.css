@@ -72,7 +72,7 @@ body {
 
 #aboutme {
   position: absolute;
-  left: -3000px;
+  left: -9999px;
   margin-top: 3%;
   margin-right: 15%;
   transition: left 1s ease;
